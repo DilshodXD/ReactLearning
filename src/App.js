@@ -1,6 +1,7 @@
 import React from 'react';
 
-import Api from './APITutorial/Backend'
+import Sass from './sassTutorial/SassTutorail'
+// import Api from './APITutorial/Backend'
 // import Lifecycle from './lifecycle/Lifecycle'
 // import MyApp from './components/MyApp'
 // import MyApp2 from './components/MyApp2'
@@ -11,7 +12,8 @@ import Api from './APITutorial/Backend'
 function App() {
   return (
     <div>
-    <Api/>
+      <Sass />
+      {/* <Api/> */}
       {/* <Lifecycle /> */}
       {/* <Component1 age="17" name="Dilshod" /> */}
       {/* <Component2 text="React Tutorial" /> */}
