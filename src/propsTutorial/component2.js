@@ -3,7 +3,7 @@ import React from 'react';
 function component2(props) {
     return (
         <div>
-        <p>This is {props.text}</p>
+            <p>This is {props.text}</p>
         </div>
     );
 }

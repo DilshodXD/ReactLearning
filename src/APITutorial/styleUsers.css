@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+.users{
+    display: grid;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0);
+    background-color: rgb(50, 50, 50);
+    gap: 14px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
