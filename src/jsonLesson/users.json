@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Dilshod",
+        "lastName": "Xojimuhammedov",
+        "age": 17,
+        "isStudent": true,
+        "country": "Uzbekistan",
+        "phone": 998950186355
+    },
+    {
+        "name": "Abduvoris",
+        "lastName": "Mirzaanvarov",
+        "age": 18,
+        "isStudent": false,
+        "country": "Uzbekistan",
+        "phone": 998998565017
+    }
+]

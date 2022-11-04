@@ -1,11 +1,14 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+// import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import Nav from './pages/Nav'
-import Blog from './pages/Blog'
-import About from './pages/Abaut'
-import Home from './pages/Home'
-import NoPage from './pages/NoPage'
+// import Json from './jsonLesson/JsonApp'
+import Charts from './chartsLib/ChartsComp'
+
+// import Nav from './pages/Nav'
+// import Blog from './pages/Blog'
+// import About from './pages/Abaut'
+// import Home from './pages/Home'
+// import NoPage from './pages/NoPage'
 
 // import Sass from './sassTutorial/SassTutorail'
 // import Api from './APITutorial/Backend'
@@ -16,20 +19,29 @@ import NoPage from './pages/NoPage'
 // import Component2 from './propsTutorial/component2'
 // import Lesson1 from './stateLesson/stateLesson1'
 
-function App() {
+export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Nav />}>
-          <Route index element={<Home />} />
-          <Route path='/blog' element={<Blog />} />
-          <Route path='/blog' element={<Blog />} />
-          <Route path='/about' element={<About />} />
-          <Route path='*' element={<NoPage />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <div>
+      {/* <Json /> */}
+      <Charts/>
+    </div>
   )
 }
 
-export default App;
+// function App() {
+//   return (
+//     <BrowserRouter>
+//       <Routes>
+//         <Route path='/' element={<Nav />}>
+//           <Route index element={<Home />} />
+//           <Route path='/blog' element={<Blog />} />
+//           <Route path='/blog' element={<Blog />} />
+//           <Route path='/about' element={<About />} />
+//           <Route path='*' element={<NoPage />} />
+//         </Route>
+//       </Routes>
+//     </BrowserRouter>
+//   )
+// }
+
+// export default App;
