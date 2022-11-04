@@ -1,6 +1,13 @@
 import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import Sass from './sassTutorial/SassTutorail'
+import Nav from './pages/Nav'
+import Blog from './pages/Blog'
+import About from './pages/Abaut'
+import Home from './pages/Home'
+import NoPage from './pages/NoPage'
+
+// import Sass from './sassTutorial/SassTutorail'
 // import Api from './APITutorial/Backend'
 // import Lifecycle from './lifecycle/Lifecycle'
 // import MyApp from './components/MyApp'
@@ -11,17 +18,18 @@ import Sass from './sassTutorial/SassTutorail'
 
 function App() {
   return (
-    <div>
-      <Sass />
-      {/* <Api/> */}
-      {/* <Lifecycle /> */}
-      {/* <Component1 age="17" name="Dilshod" /> */}
-      {/* <Component2 text="React Tutorial" /> */}
-      {/* <Lesson1/> */}
-      {/* <MyApp/>   */}
-      {/* <MyApp2/>   */}
-    </div>
-  );
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Nav />}>
+          <Route index element={<Home />} />
+          <Route path='/blog' element={<Blog />} />
+          <Route path='/blog' element={<Blog />} />
+          <Route path='/about' element={<About />} />
+          <Route path='*' element={<NoPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
 export default App;
