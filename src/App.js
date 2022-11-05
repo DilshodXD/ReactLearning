@@ -3,7 +3,8 @@ import React from 'react';
 
 // import Json from './jsonLesson/JsonApp'
 // import Charts from './chartsLib/ChartsComp'
-import Simple from './hookTutorial/Simple'
+// import Simple from './hookTutorial/Simple'
+import Carousel from './reactLib/Carousel'
 
 // import Nav from './pages/Nav'
 // import Blog from './pages/Blog'
@@ -25,7 +26,8 @@ export default function App() {
     <div>
       {/* <Json /> */}
       {/* <Charts/> */}
-      <Simple/>
+      {/* <Simple/> */}
+      <Carousel/>
     </div>
   )
 }
