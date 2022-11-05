@@ -2,7 +2,8 @@ import React from 'react';
 // import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 // import Json from './jsonLesson/JsonApp'
-import Charts from './chartsLib/ChartsComp'
+// import Charts from './chartsLib/ChartsComp'
+import Simple from './hookTutorial/Simple'
 
 // import Nav from './pages/Nav'
 // import Blog from './pages/Blog'
@@ -23,7 +24,8 @@ export default function App() {
   return (
     <div>
       {/* <Json /> */}
-      <Charts/>
+      {/* <Charts/> */}
+      <Simple/>
     </div>
   )
 }
