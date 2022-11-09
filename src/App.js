@@ -1,10 +1,11 @@
-import React from 'react';
+import React from "react";
 // import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 // import Json from './jsonLesson/JsonApp'
 // import Charts from './chartsLib/ChartsComp'
 // import Simple from './hookTutorial/Simple'
-import Carousel from './reactLib/Carousel'
+// import Carousel from './reactLib/Carousel'
+import UseEffect from "./useEffect/UseEffect";
 
 // import Nav from './pages/Nav'
 // import Blog from './pages/Blog'
@@ -27,9 +28,10 @@ export default function App() {
       {/* <Json /> */}
       {/* <Charts/> */}
       {/* <Simple/> */}
-      <Carousel/>
+      {/* <Carousel/> */}
+      <UseEffect />
     </div>
-  )
+  );
 }
 
 // function App() {
